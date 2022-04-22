@@ -1,0 +1,974 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- EXTERNAL CSS LINK -->
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <link rel="stylesheet" href="./Assets/CSS/slick-theme.css">
+    <link rel="stylesheet" href="./Assets/CSS/slick.css">
+
+    <!-- FONT AWESOME CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- owl carousel Link -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+
+    <title>Marina Enclave | GuruKrupa Group</title>
+</head>
+
+<body>
+    <!-- Navbar starts here -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img id="logo" style="display: block;" src="./Assets/IMG/logo.webp"
+                        alt=""></a>
+                <button onclick="hideLogo()" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Amenities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Specifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Plans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Location</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar Ends here -->
+
+    <!-- Banner component starts here -->
+    <section>
+        <div class="container banner-wrapper">
+            <div class="slider-grid-row">
+                <div class="bottom-order" id="order_initial">
+                    <img src="./Assets/IMG/decorative-border-png-25185.png" alt="">
+                    <h1>Ready to move in 2BHK homes</h1>
+                    <p>1 & 2 BHK starting from ₹1.55 Cr*.</p>
+                    <p><span><i class="fa-solid fa-location-dot"></i></span>&nbsp; Malad (W)</p>
+                </div>
+                <div>
+                    <div class="slider-container">
+                        <div class="slides-wrapper">
+                            <div class="img-container">
+                                <img src="./Assets/IMG/slider-1.webp" alt="">
+                            </div>
+                            <div class="img-container">
+                                <img src="./Assets/IMG/slider-2.png" alt="">
+                            </div>
+                            <div class="img-container">
+                                <img src="./Assets/IMG/slider-3.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="slider">
+                            <div class="selected"></div>
+                            <button class="slider-button"></button>
+                            <button class="slider-button"></button>
+                            <button class="slider-button"></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="order_reverse">
+                    <div class="bottom-order">
+                        <h1>Ready to move in 2BHK homes</h1>
+                        <p>1 & 2 BHK starting from ₹1.55 Cr*.</p>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>&nbsp; Malad (W)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner component ends here -->
+
+    <!-- form component starts here -->
+    <section class="container-fluid" id="form_wrapper">
+        <form>
+            <div class="form-grid-row">
+                <div class="form-grid-col">
+                    <input type="text" name="" id="" placeholder="Name">
+                </div>
+                <div class="form-grid-col">
+                    <input type="email" name="" id="" placeholder="Email">
+                </div>
+                <div class="form-grid-col">
+                    <input type="number" name="" id="" placeholder="Mobile No">
+                </div>
+                <div class="form-grid-col">
+                    <input type="text" name="" id="" placeholder="Configuration">
+                </div>
+                <div class="form-grid-col">
+                    <input type="number" name="" id="" placeholder="Budget">
+                </div>
+                <div class="form-grid-col">
+                    <a href="javascript:;">
+                        <svg class="icon-arrow before">
+                            <use xlink:href="#arrow"></use>
+                        </svg>
+                        <span class="label">Submit</span>
+                        <svg class="icon-arrow after">
+                            <use xlink:href="#arrow"></use>
+                        </svg>
+                    </a>
+
+                    <svg style="display: none;">
+                        <defs>
+                            <symbol id="arrow" viewBox="0 0 35 15">
+                                <title>Arrow</title>
+                                <path
+                                    d="M27.172 5L25 2.828 27.828 0 34.9 7.071l-7.07 7.071L25 11.314 27.314 9H0V5h27.172z " />
+                            </symbol>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!-- form component ends here -->
+
+    <!-- about us component starts here -->
+    <section id="about_wrapper">
+        <div class="container">
+            <div class="about-grid-row">
+                <div class="about-grid-col-img">
+                    <h2><span>MARINA ENCLAVE</span></h2>
+                    <p>Since our inception in 1994, Gurukrupa Group has focused on creating living spaces with the
+                        proper mix of contemporary spaces, innovative designs, and green surroundings.</p>
+                    <p>As you enter exquisite and spotless apartments at Marina Enclave, let your feet be caressed by
+                        the finest flooring. The ideal spaces at Marina Enclave are nestled among lush greenery while
+                        still bustling with metropolitan life. The perfect work-life balance, catching up with loved
+                        ones, and spending Zen moments with mother nature are just a few of the many advantages of
+                        living here. Come and enjoy the finest of both worlds at Marina Enclave, Malad (W).</p>
+                </div>
+                <div>
+                    <div class="about-content-grid-row">
+                        <div>
+                            <p><b>Location</b></p>
+                        </div>
+                        <div>
+                            <p>Malad (W)</p>
+                        </div>
+                    </div>
+                    <div class="about-content-grid-row">
+                        <div>
+                            <p><b>Block</b></p>
+                        </div>
+                        <div>
+                            <p>J, K, L, M & N Wing</p>
+                        </div>
+                    </div>
+                    <div class="about-content-grid-row">
+                        <div>
+                            <p><b>Maha Rera No.</b></p>
+                        </div>
+                        <div>
+                            <p>P51800007088 (J, K, L Wing), P51800016874 (M & N Wing)</p>
+                        </div>
+                    </div>
+                    <div class="about-content-grid-row">
+                        <div>
+                            <p><b>Construction Status</b></p>
+                        </div>
+                        <div>
+                            <p>Ready To Move-In | OC Received</p>
+                        </div>
+                    </div>
+                    <div class="about-content-grid-row">
+                        <div>
+                            <p><b>Budget</b></p>
+                        </div>
+                        <div>
+                            <p>Rs. 1.55 Cr.* Onwards</p>
+                        </div>
+                    </div>
+                    <div class="about-content-grid-row">
+                        <div>
+                            <p><b>Configuration</b></p>
+                        </div>
+                        <div>
+                            <p>2 BHK Classic Patio - Rera CA - 718 to 736 Sq. Ft.
+                                2 BHK Classic Bay - Rera CA - 724 Sq. Ft.
+                                3 BHK Classic Bay - Rera CA - 929 Sq. Ft.</p>
+                        </div>
+                    </div>
+                    <div class="about-content-grid-row">
+                        <div>
+                            <p><b>Home Loans</b></p>
+                        </div>
+                        <div>
+                            <p>All Major Banks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us component ends here -->
+
+    <!-- Amenities component starts here -->
+    <section id="owl_carousel">
+        <div class="container">
+            <h2><span>Amenities</span></h2>
+            <p>A delightful way of life</p>
+            <p>Presenting 8 special zones to elevate your life to extraordinary joy and opulence. These zones include
+                everything right from spirituality to entertainment and gaming to personal wellness and much more. Silky
+                smooth skin, that post-workout glow, a peaceful mind, and a happy heart… Lead a life of unprecedented
+                luxury in the lap of comfort and an uber glamorous setting. Because pampering you is something we love
+                doing… Nourish and pamper your mind, body, and soul, bond with your family and make new friends as you
+                explore these abundantly available amenities.</p>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/chess.webp" alt="Indoor Games" />
+                        <div class="overlay">
+                            <div>
+                                <p>Indoor Games</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/club-house.webp" alt="Club House" />
+                        <div class="overlay">
+                            <div>
+                                <p>Club House</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/court.webp" alt="Squash Court" />
+                        <div class="overlay">
+                            <div>
+                                <p>Squash Court</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/cricket.webp" alt="Net Cricket" />
+                        <div class="overlay">
+                            <div>
+                                <p>Net Cricket</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/cycling.webp" alt="Cycling Track" />
+                        <div class="overlay">
+                            <div>
+                                <p>Cycling Track</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/fountain.webp" alt="Fountain" />
+                        <div class="overlay">
+                            <div>
+                                <p>Fountain</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/gazebo.webp" alt="Gazebo" />
+                        <div class="overlay">
+                            <div>
+                                <p>Gazebo</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/golf.webp" alt="Putting Green" />
+                        <div class="overlay">
+                            <div>
+                                <p>Putting Green</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/gym.webp" alt="Gymnasium" />
+                        <div class="overlay">
+                            <div>
+                                <p>Gymnasium</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/hall.webp" alt="Banquet Hall" />
+                        <div class="overlay">
+                            <div>
+                                <p>Banquet Hall</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/jacuzzi.webp" alt="Steam &amp; Jacuzzi" />
+                        <div class="overlay">
+                            <div>
+                                <p>Steam &amp; Jacuzzi</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/kids-pool.webp" alt="Kids Pool" />
+                        <div class="overlay">
+                            <div>
+                                <p>Kids Pool</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/mini-theatre.webp" alt="Mini Theatre" />
+                        <div class="overlay">
+                            <div>
+                                <p>Mini Theatre</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/namaste.webp" alt="Spiritual Message Wall" />
+                        <div class="overlay">
+                            <div>
+                                <p>Spiritual Message Wall</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/park.webp" alt="Chit Chat Garden" />
+                        <div class="overlay">
+                            <div>
+                                <p>Chit Chat Garden</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/pathway.webp" alt="Reflexology Pathway" />
+                        <div class="overlay">
+                            <div>
+                                <p>Reflexology Pathway</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/plaza.webp" alt="Palm Plaza" />
+                        <div class="overlay">
+                            <div>
+                                <p>Palm Plaza</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/pool.webp" alt="Swimming Pool" />
+                        <div class="overlay">
+                            <div>
+                                <p>Swimming Pool</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/roller-skate.webp" alt="Skating Rink" />
+                        <div class="overlay">
+                            <div>
+                                <p>Skating Rink</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/running.webp" alt="Jogging Track" />
+                        <div class="overlay">
+                            <div>
+                                <p>Jogging Track</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/squash-court.webp" alt="Squash Court" />
+                        <div class="overlay">
+                            <div>
+                                <p>Squash Court</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/swings.webp" alt="Kids Play Park" />
+                        <div class="overlay">
+                            <div>
+                                <p>Kids Play Park</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="./Assets/IMG/theater.webp" alt="Open Air Amphitheatre" />
+                        <div class="overlay">
+                            <div>
+                                <p>Open Air Amphitheatre</p>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Amenities component ends here -->
+
+    <!-- Specifications component starts here -->
+    <section id="specification_wrapper">
+        <div class="container">
+            <h2><span>Specifications</span></h2>
+            <div class="center-slider">
+                <div>
+                    <div class="content-show">
+                        <img src="./Assets/IMG/electrification.webp" alt="">
+                        <h4>Electrification</h4>
+                        <p>Concealed copper wiring</p>
+                        <p>Branded swithces</p>
+                        <p>Provision of A/C. Telephone, Cable & Internet connection</p>
+                        <p>Power backup for elevators & common areas</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="content-show">
+                        <img src="./Assets/IMG/kitchen.webp" alt="">
+                        <h4>Kitchen</h4>
+                        <p>Granite Kitchen platform</p>
+                        <p>service platform</p>
+                        <p>SS sink</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="content-show">
+                        <img src="./Assets/IMG/elevation.webp" alt="">
+                        <h4>Elevation</h4>
+                        <p>Breathtaking beautiful elevation</p>
+                        <p>2 & 3 BHK luxurious apartment</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="content-show">
+                        <img src="./Assets/IMG/flooring.webp" alt="">
+                        <h4>Flooring</h4>
+                        <p>Vitrified tiles in all rooms</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="content-show">
+                        <img src="./Assets/IMG/view.webp" alt="">
+                        <h4>View</h4>
+                        <p>Creek facing apartments</p>
+                        <p>Podium Facing apartments</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="content-show">
+                        <img src="./Assets/IMG/toilet.webp" alt="">
+                        <h4>Toilets</h4>
+                        <p>Designer toilets</p>
+                        <p>Branded toilet accessories</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- owl carousel component ends here -->
+    <!-- Specifications component ends here -->
+
+    <!-- location component starts here -->
+    <section id="location_wrapper">
+        <div class="container">
+            <h2><span>Location & Connectivity</span></h2>
+            <p>Perfect spaces are complemented with the perfect location. It is not everywhere that one location will
+                have it all. Nestled in the heart of Mumbai, Malad is a cultural melting pot and boasts of the best of
+                both worlds. From the best offices to a bustling nightlife, Malad has it all. Acres upon acres of
+                greenery along with top-of-the-line modern amenities, which include world-class education institutions,
+                state-of-the-art hospitals, wide roads and a huge scope for unblemished futuristic development, make
+                Malad the numero uno choice for both the top builders of Mumbai as well as the crème de la crème of the
+                crowd of Mumbai. Malad is not merely a location, it is a statement of leading an unprecedented luxurious
+                lifestyle.</p>
+            <div class="location-faq">
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15071.352988613162!2d72.8151469!3d19.202266!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6573892b92985576!2sGurukrupa%20Marina%20Enclave!5e0!3m2!1sen!2sin!4v1650614077532!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+                    <div class="aks-accordion" itemscope itemtype="#" data-accordion="">
+                        <div class="aks-accordion-row">
+                            <div class="aks-accordion-item" itemscope itemprop="mainEntity" itemtype="#"
+                                data-accordion-item="" data-ripple="#00000026">
+                                <div class="aks-accordion-item-row">
+                                    <div class="aks-accordion-item-icon">
+                                        <svg class="aks-accordion-item-icon-open" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+                                v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+                                        </svg>
+                                        <svg class="aks-accordion-item-icon-close" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="aks-accordion-item-title">
+                                        <h6 itemprop="name">School and Colleges</h6>
+                                    </div>
+                                </div>
+                                <div class="aks-accordion-item-content" itemscope itemprop="acceptedAnswer" itemtype="#"
+                                    data-accordion-content="">
+                                    <p itemprop="text">Billabong High International School in Malad, Mumbai - 800 M <br>
+                                        Sir J. P. High School &amp; Jr. College Of Education (D.ED.) - 900 M <br>
+                                        St. Judes High School - 1.1 Km <br>
+                                        Atharva college of Engineering - 1.8 Km <br>
+                                        Oxford B.ED. College - 2.8 Km <br>
+                                        Elia Sarwat High School and Junior College - 2.9 Km <br>
+                                        St. Mathew's High School &amp; Junior College - 3.5 Km <br>
+                                        Nalanda college - 4.5 Km <br>
+
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="aks-accordion-item" itemscope itemprop="mainEntity" itemtype="#"
+                                data-accordion-item="" data-ripple="#00000026">
+                                <div class="aks-accordion-item-row">
+                                    <div class="aks-accordion-item-icon">
+                                        <svg class="aks-accordion-item-icon-open" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+                                v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+                                        </svg>
+                                        <svg class="aks-accordion-item-icon-close" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="aks-accordion-item-title">
+                                        <h6 itemprop="name">Malls &amp; Super Market</h6>
+                                    </div>
+                                </div>
+                                <div class="aks-accordion-item-content" itemscope itemprop="acceptedAnswer" itemtype="#"
+                                    data-accordion-content="">
+                                    <p itemprop="text">Bhoomi Mart - 800 M <br>
+                                        Sweet Home Super Market - 1.1 Km <br>
+                                        Infiniti Mall - 4.6 Km <br>
+                                        Natraj Market - 4.7 Km <br>
+                                        Inorbit Mall - 5.3 Km <br>
+                                        Growels Mall - 6.6 Km <br>
+                                        Oberoi Mall - 8.7 Km <br>
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="aks-accordion-item" itemscope itemprop="mainEntity" itemtype="#"
+                                data-accordion-item="" data-ripple="#00000026">
+                                <div class="aks-accordion-item-row">
+                                    <div class="aks-accordion-item-icon">
+                                        <svg class="aks-accordion-item-icon-open" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+                                v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+                                        </svg>
+                                        <svg class="aks-accordion-item-icon-close" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="aks-accordion-item-title">
+                                        <h6 itemprop="name">Hospital</h6>
+                                    </div>
+                                </div>
+                                <div class="aks-accordion-item-content" itemscope itemprop="acceptedAnswer" itemtype="#"
+                                    data-accordion-content="">
+                                    <p itemprop="text">Mangalmur Hospital - 1.7 Km <br>
+                                        Phoenix Hospital Pvt Ltd. - 1.9 Km <br>
+                                        Atlantis Hospital - 2.1 Km <br>
+                                        Zenith Multispeciality Hospital - 2.6 Km <br>
+                                        Lotus Multispeciality Hospital - 3.6 Km <br>
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="aks-accordion-item" itemscope itemprop="mainEntity" itemtype="#"
+                                data-accordion-item="" data-ripple="#00000026">
+                                <div class="aks-accordion-item-row">
+                                    <div class="aks-accordion-item-icon">
+                                        <svg class="aks-accordion-item-icon-open" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+                                v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+                                        </svg>
+                                        <svg class="aks-accordion-item-icon-close" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="aks-accordion-item-title">
+                                        <h6 itemprop="name">Fine Dining</h6>
+                                    </div>
+                                </div>
+                                <div class="aks-accordion-item-content" itemscope itemprop="acceptedAnswer" itemtype="#"
+                                    data-accordion-content="">
+                                    <p itemprop="text">Bageecha Resort - 2.5 Km <br>
+                                        The Green Village Resorts - 2.8 Km <br>
+                                        Uncle's Kitchen - 3.3 Km <br>
+                                        The Bar Stock Exchange - 4.3 Km <br>
+                                        The Resort Madh-Marve - 6.5 Km <br>
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="aks-accordion-item" itemscope itemprop="mainEntity" itemtype="#"
+                                data-accordion-item="" data-ripple="#00000026">
+                                <div class="aks-accordion-item-row">
+                                    <div class="aks-accordion-item-icon">
+                                        <svg class="aks-accordion-item-icon-open" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+                                v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+                                        </svg>
+                                        <svg class="aks-accordion-item-icon-close" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="aks-accordion-item-title">
+                                        <h6 itemprop="name">Mandir &amp; Churches</h6>
+                                    </div>
+                                </div>
+                                <div class="aks-accordion-item-content" itemscope itemprop="acceptedAnswer" itemtype="#"
+                                    data-accordion-content="">
+                                    <p itemprop="text">Shakti temple - 850 M <br>
+                                        Jankalyan Nagar Ganesh Temple - 900 M <br>
+                                        Bethel Mar Thoma Church, Malad - 900 M <br>
+                                        JNRJ Church - 1.9 Km <br>
+                                        Sacred Heart Syro Malabar Church - 2.5 Km <br>
+                                        Shree Shankeshwar Parshwanath Jain Mandir - 2.8 Km <br>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="aks-accordion-item" itemscope itemprop="mainEntity" itemtype="#"
+                                data-accordion-item="" data-ripple="#00000026">
+                                <div class="aks-accordion-item-row">
+                                    <div class="aks-accordion-item-icon">
+                                        <svg class="aks-accordion-item-icon-open" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+                                v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+                                        </svg>
+                                        <svg class="aks-accordion-item-icon-close" viewBox="0 0 512 512">
+                                            <path
+                                                d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="aks-accordion-item-title">
+                                        <h6 itemprop="name">Beaches</h6>
+                                    </div>
+                                </div>
+                                <div class="aks-accordion-item-content" itemscope itemprop="acceptedAnswer" itemtype="#"
+                                    data-accordion-content="">
+                                    <p itemprop="text">Marve Beach - 4.6 Km <br>
+                                        Hamla Beach - 5.1 Km <br>
+                                        Aksa Beach - 6.2 Km <br>
+                                        Versova Beach - 12.1 Km <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- location component ends here -->
+
+    <!-- Icon component starts here -->
+    <section id="icons_wrapper">
+        <div class="container social-icons">
+            <h3><span>MARINA ENCLAVE</span></h3>
+            <p>Marina Enclave Rd, Near Billabong School, Malad West, Mumbai, Maharashtra 400095</p>
+            <ul>
+                <li><a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+                <li><a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a> </li>
+                <li><a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a> </li>
+                <li><a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a> </li>
+                <li><a href="#"> <i class="fa fa-youtube" aria-hidden="true"></i> </a> </li>
+                <li><a href="#"> <i class="fa fa-pinterest-p" aria-hidden="true"></i> </a> </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Icon component ends here -->
+
+    <!-- footer component starts here -->
+    <footer>
+        <div class="container footer">
+            <p><b>Disclaimer -</b>The plans, specifications, images and other details herein are only indicative and the
+                developers reserve their rights to change any or all of these in the interest of the development. The
+                printed material does not constitute an offer and or contract of any type between the developer and the
+                recipient. Any purchase/lessee of this development shall be governed by the terms and conditions of the
+                agreement for sale/lease entered into between parties and no detail mentioned in this printed material
+                shall in any way govern such transaction.</p>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>© 2022 Marina Enclave | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer component ends here -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+
+    <script src="./Assets/JS/slick.min.js"></script>
+
+    <script>
+        function hideLogo() {
+            var logo = document.getElementById('logo');
+            if (logo.style.display === 'block') {
+                logo.style.display = 'none';
+            } else if (logo.style.display === 'none') {
+                logo.style.display = 'block'
+            }
+        }
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            autoplay: true,
+            smartSpeed: 1000,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1080: {
+                    items: 4
+                },
+                1081: {
+                    items: 5
+                },
+            }
+        })
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.center-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                centerMode: true,
+                arrows: true,
+                dots: false,
+                speed: 300,
+                centerPadding: '20px',
+                infinite: true,
+                autoplaySpeed: 5000,
+                autoplay: true,
+                responsive: [{
+                        breakpoint: 1081,
+                        settings: {
+                            arrows: true,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 640,
+                        settings: {
+                            arrows: true,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+    <script>
+        (function () {
+            "use strict";
+            var jQueryPlugin = (window.jQueryPlugin = function (ident, func) {
+                return function (arg) {
+                    if (this.length > 1) {
+                        this.each(function () {
+                            var $this = $(this);
+
+                            if (!$this.data(ident)) {
+                                $this.data(ident, func($this, arg));
+                            }
+                        });
+
+                        return this;
+                    } else if (this.length === 1) {
+                        if (!this.data(ident)) {
+                            this.data(ident, func(this, arg));
+                        }
+
+                        return this.data(ident);
+                    }
+                };
+            });
+        })();
+
+        (function () {
+            "use strict";
+
+            function Accordion($roots) {
+                var element = $roots;
+                var accordion = $roots.first("[data-accordion]");
+                var accordion_target = $roots.find("[data-accordion-item]");
+                var accordion_content = $roots.find("[data-accordion-content]");
+                $(accordion_target).click(function () {
+                    $(this).toggleClass("opened");
+                    $(this).find(accordion_content).slideToggle("slow");
+                    $(this).siblings().find(accordion_content).slideUp("slow");
+                    $(this).siblings().removeClass("opened");
+                });
+            }
+            $.fn.Accordion = jQueryPlugin("Accordion", Accordion);
+            $("[data-accordion]").Accordion();
+
+            function Ripple_Button($root) {
+                var elements = $root;
+                var ripple_btn = $root.first("[data-ripple]");
+                $(ripple_btn).on("click", function (event) {
+                    event.preventDefault();
+                    var $div = $("<div/>"),
+                        btnOffset = ripple_btn.offset(),
+                        xPos = event.pageX - btnOffset.left,
+                        yPos = event.pageY - btnOffset.top;
+                    $div.addClass("ripple-effect");
+                    $div.css({
+                        height: ripple_btn.height(),
+                        width: ripple_btn.height(),
+                        top: yPos - $div.height() / 2,
+                        left: xPos - $div.width() / 2,
+                        background: ripple_btn.data("ripple") || "#ffffff26"
+                    });
+                    ripple_btn.append($div);
+
+                    window.setTimeout(function () {
+                        $div.remove();
+                    }, 2000);
+                });
+            }
+            $.fn.Ripple_Button = jQueryPlugin("Ripple_Button", Ripple_Button);
+            $("[data-ripple]").Ripple_Button();
+        })();
+    </script>
+</body>
+
+</html>
